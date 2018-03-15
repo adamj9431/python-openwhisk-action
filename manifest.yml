@@ -1,6 +1,7 @@
 ---
 packages:
   test_action_package:
+    namespace: /adam-johnson-sandbox_walmart-watering/test_action_package
     actions:
       test_action_one:
         function: actions/test_action_one.zip

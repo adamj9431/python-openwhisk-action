@@ -2,3 +2,6 @@ project:
   name: test_action
   namespace: /adam-johnson-sandbox_walmart-watering
   apiHost: openwhisk.ng.bluemix.net
+  packages:
+      test_action_package:
+          namespace: /adam-johnson-sandbox_walmart-watering/test_action_package

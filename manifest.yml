@@ -1,12 +1,11 @@
 ---
 packages:
   test_action_package:
-    namespace: /adam-johnson-sandbox_walmart-watering/test_action_package
     actions:
       test_action_one:
-        function: actions/test_action_one.zip
+        function: actions/test_action_one/bundle.zip
         runtime: "python:3"
       test_action_two:
-        function: actions/test_action_two.zip
+        function: actions/test_action_two/bundle.zip
         runtime: "python:3"
     version: 1.0
